@@ -2,7 +2,7 @@ const BLOG = {
   title: 'TT Growing',
   author: 'fly2fire',
   email: 'fly2fire@gmail.com',
-  link: 'https://growing.caixh.tt',
+  link: 'https://blog.caixh.tt',
   description: 'tt is growing.',
   lang: 'zh-CN', // ['en-US', 'zh-CN', 'zh-HK', 'zh-TW', 'ja-JP', 'es-ES']
   appearance: 'auto', // ['light', 'dark', 'auto'],
@@ -14,10 +14,10 @@ const BLOG = {
   postsPerPage: 10,
   sortByDate: true,
   showAbout: true,
-  showArchive: false,
+  showArchive: true,
   autoCollapsedNavBar: true, // The automatically collapsed navigation bar
   ogImageGenerateURL: 'https://og-image-craigary.vercel.app', // The link to generate OG image, don't end with a slash
-  socialLink: 'https://twitter.com/fly2fire',
+  socialLink: '',
   seo: {
     keywords: ['Blog', 'Website', 'Notion'],
     googleSiteVerification: '' // Remove the value or replace it with your own google site verification code
